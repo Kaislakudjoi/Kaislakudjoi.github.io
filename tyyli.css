@@ -6,10 +6,20 @@ body{
     color: #5c6244;
     text-align: center;
   }
+  h2 {
+    text-align: center;
+
+  }
+
+  h3{
+    text-align: center;
+
+  }
   
   p {
     font-family: verdana;
     font-size: 20px;
+    text-align: center;
   }
   nav a {
     background-color: #fff9f2;
