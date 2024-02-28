@@ -32,9 +32,10 @@ body{
   
  nav a:hover{
     background-color: #5c6244;
+    color: #fff9f2;
   }
   #valittu{
-    background-color: #d8dfbe;
+    background-color: #5c6244;
     color: #fff9f2;
 
   }
