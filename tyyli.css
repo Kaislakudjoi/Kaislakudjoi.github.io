@@ -45,3 +45,11 @@ body{
     color: #fff9f2;
 
   }
+  /*pääsivun sisällön asettelu*/
+.grid-teksti1 { grid-area: g1; }
+.grid-kuva { grid-area: g3; }
+
+.grid-container {
+    display: grid;
+    gap: 20px;
+    padding: 20px;}
