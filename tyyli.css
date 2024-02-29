@@ -69,4 +69,5 @@ body{
       background-color: #fff9f2;
       text-decoration: none;
       font-size: 15px;
+      display: flex;
   }
