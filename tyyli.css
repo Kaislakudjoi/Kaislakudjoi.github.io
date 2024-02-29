@@ -8,6 +8,8 @@ body{
   }
   h2 {
     text-align: left;
+    color: #5c6244;
+    font-size: 44px;
 
   }
 
@@ -23,6 +25,7 @@ body{
     font-family: verdana;
     font-size: 20px;
     text-align: center;
+    color: #5c6244;
   }
   nav a {
     background-color: #fff9f2;
