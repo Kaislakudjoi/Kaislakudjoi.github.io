@@ -66,7 +66,9 @@ body{
       bottom: 0;
       width: 100%;
       max-height: 15%;
-      background-color: #5c6244;
-      color: #fff9f2;
+      background-color: #fff9f2;
       text-decoration: none;
+      margin-right: 0px ;
+      margin-left: 0px;
+      margin-bottom: 0px;
   }
