@@ -62,13 +62,10 @@ body{
     footer{
       flex-direction: row;
       text-align: right;
-      position: fixed;
+      position: sticky;
       bottom: 0;
       width: 100%;
       max-height: 15%;
       background-color: #fff9f2;
       text-decoration: none;
-      margin-right: 0px ;
-      margin-left: 0px;
-      margin-bottom: 0px;
   }
