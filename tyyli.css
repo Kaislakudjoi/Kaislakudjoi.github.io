@@ -45,7 +45,7 @@ body{
     color: #fff9f2;
 
   }
-  /*pääsivun sisällön asettelu*/
+  /*etusivun sisällön asettelu*/
 .grid-teksti1 { grid-area: g1; }
 .grid-kuva { grid-area: g3; }
 
@@ -53,3 +53,19 @@ body{
     display: grid;
     gap: 20px;
     padding: 20px;}
+  
+    #ETUSIVU{
+      grid-template-areas:
+        'g1 g1 g3';
+        margin-bottom: 100px;
+    }
+    footer{
+      flex-direction: row;
+      text-align: right;
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+      max-height: 15%;
+      background-color: #5c6244;
+      color: #fff9f2;
+  }
