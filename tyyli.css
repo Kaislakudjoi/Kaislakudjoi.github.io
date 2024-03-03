@@ -4,7 +4,7 @@ body{
   
   h1 {
     font-family: 29LTAdir;
-    font-size: 70px;
+    font-size: 50px;
     text-align: left;
     color: #5c6244;
 
@@ -27,25 +27,26 @@ body{
     color:  #5c6244;
     text-decoration: none;
   }
-
-  h2 {
-      font-family: 29LTAdir;
-      font-size:60px;
-      text-align: center;
-      color: #5c6244;
-  }
   p2{
     font-family: verdana;
-    font-size: 40px;
+    font-size: 35px;
     text-align: center;
     color:  #5c6244;
     text-decoration: none;
-
   }
+
+  h2 {
+      font-family: 29LTAdir;
+      font-size:45px;
+      text-align: center;
+      color: #5c6244;
+  }
+
+
   p3{
     font-family: verdana;
-    font-size: 20px;
-    text-align: left;
+    font-size: 30px;
+    text-align: center;
     color: #1b1913;
     text-decoration: none;
     
@@ -53,7 +54,7 @@ body{
 
   header{
     font-family: 29LTAdir;
-    font-size: 40px;
+    font-size: 30px;
     text-align: right;
     color: #5c6244;
   }
