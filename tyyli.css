@@ -83,10 +83,12 @@ body{
       bottom: 0;
       width: 100%;
       max-height: 15%;
-      color: #fff9f2;
       background-color:  #5c6244;
       font-size: 15px;
       display: flex;
       justify-content: space-around;
       text-decoration: none;
+  }
+  p{
+    color: #fff9f2;
   }
