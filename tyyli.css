@@ -40,6 +40,7 @@ body{
   #valittu{
     background-color: #5c6244;
     color: #fff9f2;
+  }
 
   footer{
       flex-direction: row;
