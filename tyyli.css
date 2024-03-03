@@ -50,7 +50,10 @@ body{
   }
 
   header{
+    font-family: 29LTAdir;
+    font-size: 40px;
     text-align: right;
+    color: #5c6244;
   }
 
   nav a {
