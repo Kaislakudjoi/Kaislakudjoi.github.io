@@ -87,8 +87,8 @@ body{
       font-size: 15px;
       display: flex;
       justify-content: space-around;
-      text-decoration: none;
   }
   p{
     color: #fff9f2;
+    text-decoration: none;
   }
