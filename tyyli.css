@@ -22,14 +22,14 @@ body{
   }
   p1 {
     font-family: 29LTAdir;
-    font-size: 30px;
+    font-size: 20px;
     text-align: left;
     color:  #5c6244;
     text-decoration: none;
   }
   p2{
     font-family: verdana;
-    font-size: 35px;
+    font-size: 25px;
     text-align: center;
     color:  #5c6244;
     text-decoration: none;
@@ -45,7 +45,7 @@ body{
 
   p3{
     font-family: verdana;
-    font-size: 30px;
+    font-size: 20px;
     text-align: center;
     color: #1b1913;
     text-decoration: none;
@@ -79,13 +79,12 @@ body{
   footer{
       flex-direction: row;
       text-align: left;
-      position: sticky;
       bottom: 0;
       width: 100%;
       max-height: 15%;
       background-color:  #5c6244;
       font-size: 15px;
-      display: flex;
+      display:block
       justify-content: space-around;
   }
   p{
