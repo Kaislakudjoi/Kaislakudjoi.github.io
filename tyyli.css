@@ -1,15 +1,13 @@
 body{
-    background-color: #fff9f2;
-  }
-  
-  h1 {
-    font-family: 29LTAdir;
-    font-size: 50px;
-    text-align: left;
-    color: #5c6244;
+  background-color: #fff9f2;
+}
 
-  }
-
+h1 {
+  font-family: 29LTAdir;
+  font-size: 50px;
+  text-align: center;
+  color: #5c6244;
+}
   p{
     font-family: 29LTAdir;
     font-size: 20px;
@@ -18,49 +16,113 @@ body{
     text-decoration: none;
     padding: 30px;
     margin: 50px;
-
   }
 
-  h2 {
-      font-family: 29LTAdir;
-      font-size:45px;
-      text-align: center;
-      color: #5c6244;
-  }
+p{
+  font-family: 29LTAdir;
+  font-size: 20px;
+  text-align: left;
+  color:  #5c6244;
+  text-decoration: none;
+  padding: 30px;
+  margin: 50px;
 
-  header{
+}
+
+#hinnat{
+
+  text-align: center;
+
+
+}
+
+h2 {
     font-family: 29LTAdir;
-    font-size: 30px;
-    text-align: right;
-    color: #5c6244;
-  }
-
-  nav a {
-    background-color: #fff9f2;
-    color: #5c6244;
-    padding: 25px 25px;
+    font-size:45px;
     text-align: center;
-    text-decoration: none;
-    display: inline-block;
+    color: #5c6244;
+}
+
+header{
+  font-family: 29LTAdir;
+  font-size: 30px;
+  text-align: right;
+  color: #5c6244;
+}
+
+nav a {
+  background-color: #fff9f2;
+  color: #5c6244;
+  padding: 25px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+}
+
+#logo {
+  background-color: #fff9f2;
+  color: #5c6244;
+  padding: 25px 25px;
+  text-align: left;
+  text-decoration: none;
+  font-size: 20px;
+}
+nav a:hover{
+  background-color: #5c6244;
+  color: #fff9f2;
+}
+#valittu{
+  background-color: #5c6244;
+  color: #fff9f2;
+}
+
+footer{
+    flex-direction: row;
+    text-align: center;
+    bottom: 0;
+    width: 100%;
+    max-height: 15%;
+    background-color:  #5c6244;
     font-size: 20px;
-  }
- nav a:hover{
-    background-color: #5c6244;
-    color: #fff9f2;
-  }
-  #valittu{
-    background-color: #5c6244;
-    color: #fff9f2;
+    display:flex;
+    justify-content: space-around;
+}
+
+#footerteksti{
+  font-family: 29LTAdir;
+  font-size: 20px;
+  text-align: left;
+  color:  #fff9f2;
+  text-decoration: none;
+  padding: 10px;
+  margin: 10px;
+
+
+}
+
+
+
+.container{
+  display: flex;
+  padding-left: 10px;
+}
+
+.teksti{
+  flex: 1;
+  text-align: center;
+  margin: auto;
+  }   
+  .kuva{
+  flex: 1;
+  padding-top: 70px;
+  margin-right: 0%;
+
   }
 
-  footer{
-      flex-direction: row;
-      text-align: center;
-      bottom: 0;
-      width: 100%;
-      max-height: 15%;
-      background-color:  #5c6244;
-      font-size: 20px;
-      display:block;
-      justify-content: space-around;
+  .kuva2{
+    
+      padding-top: 10px;
+      max-width: 100%;
+      height: auto;
   }
