@@ -84,7 +84,7 @@ body{
       max-height: 15%;
       background-color:  #5c6244;
       font-size: 15px;
-      display:block
+      display:block;
       justify-content: space-around;
   }
   p{
