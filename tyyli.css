@@ -82,7 +82,7 @@ footer{
     justify-content: space-around;
 }
 
-#footerteksti{
+#footerteksti,footerteksti1{
   font-family: Montserrat;
   font-size: 20px;
   text-align: left;
