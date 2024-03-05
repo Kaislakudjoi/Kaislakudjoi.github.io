@@ -130,3 +130,7 @@ footer{
     display: block;
     margin: 30px auto;
   }
+
+  div{
+    text-align: center;
+    }   
