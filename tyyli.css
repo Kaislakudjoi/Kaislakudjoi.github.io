@@ -135,17 +135,14 @@ footer{
     display: inline-block;
   }
 
-  .gallery_container {
-    text-align: center;
-    margin: 0%;
-  }
+
 
   div.gallery {
     display: flex;
     margin: 5px;
     border: 1px solid #ccc;
     float: left;
-    width: 400px;
+    width: 500px;
     text-align: center;
   }
   
