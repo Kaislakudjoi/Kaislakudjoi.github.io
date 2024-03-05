@@ -64,6 +64,7 @@ nav a:hover{
   color: #fff9f2;
 }
 
+/*alatunniste, joka sivulla*/
 footer{
     flex-direction: row;
     text-align: center;
@@ -97,14 +98,14 @@ footer{
   margin: auto;
   }   
 
-  //etusivun kuva
+  /*etusivun kuva*/
   .kuva{
   flex: 1;
   padding-top: 70px;
   margin-right: 0%;
 
   }
-  //etusivun alempi kuva
+  /*etusivun alempi kuva*/
   .kuva2{
     
       padding-top: 10px;
