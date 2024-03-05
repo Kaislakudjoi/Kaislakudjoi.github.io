@@ -117,7 +117,6 @@ footer{
   }
   /*etusivun alempi kuva*/
   .kuva2{
-  width: 100%;
-  margin-right: 10%;
-  margin-left: 10%;
+  margin-right:30px;
+  margin-left: 30px;
   }
