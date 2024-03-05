@@ -141,8 +141,9 @@ footer{
     display: flex;
     margin: 5px;
     border: 1px solid #ccc;
-    float: center;
-    width: 400px;
+    float: left;
+    width: 600px;
+    text-align: center;
   }
   
   div.gallery:hover {
