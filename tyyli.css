@@ -117,7 +117,5 @@ footer{
   }
   /*etusivun alempi kuva*/
   .kuva2{
-    
-   /* padding-top: 10px;*/
-    width: 95%
+  width: 100%;
   }
