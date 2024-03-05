@@ -3,13 +3,13 @@ body{
 }
 
 h1 {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Montserrat;
   font-size: 50px;
   text-align: center;
   color: #5c6244;
 }
   p{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Montserrat;
     font-size: 20px;
     text-align: left;
     color:  #5c6244;
@@ -18,19 +18,24 @@ h1 {
     margin: 50px;
   }
 
+  @font-face {
+    font-family: Montserrat;
+    src: url(Montserrat-VariableFont_wght.ttf);
+  }
+
 #hinnat{
   text-align: center;
 }
 
 h2 {
-    font-family: Arial, Helvetica, sans-serif;
+  font-family: Montserrat;
     font-size:45px;
     text-align: center;
     color: #5c6244;
 }
 
 header{
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Montserrat;
   font-size: 30px;
   text-align: right;
   color: #5c6244;
@@ -78,7 +83,7 @@ footer{
 }
 
 #footerteksti{
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Montserrat;
   font-size: 20px;
   text-align: left;
   color:  #fff9f2;
