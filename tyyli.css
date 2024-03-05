@@ -108,6 +108,9 @@ footer{
 
 }
 
+#sähköposti2{
+  color: #5c6244;
+}
 .container{
   display: flex;
   /*padding-left: 10px;*/
