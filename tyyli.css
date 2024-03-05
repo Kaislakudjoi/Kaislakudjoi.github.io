@@ -128,10 +128,11 @@ footer{
   /*etusivun alempi kuva*/
   .kuva2-container {
     text-align: center;
-    margin: 30px;
+    margin: 0%;
   }
   
   .kuva2 {
     display: inline-block;
+    margin: 0%
   }
  
