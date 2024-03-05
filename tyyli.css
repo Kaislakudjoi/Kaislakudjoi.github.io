@@ -126,11 +126,11 @@ footer{
 
   }
   /*etusivun alempi kuva*/
-  .kuva2{
-    display: block;
-    margin: 30px auto;
-  }
-
-  div{
+  .kuva2-container {
     text-align: center;
-    }   
+  }
+  
+  .kuva2 {
+    display: inline-block;
+  }
+ 
