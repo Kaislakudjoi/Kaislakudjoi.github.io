@@ -81,8 +81,7 @@ footer{
     display:flex;
     justify-content: space-around;
 }
-
-#footerteksti,footerteksti1{
+#footerteksti1{
   font-family: Montserrat;
   font-size: 20px;
   text-align: left;
@@ -91,6 +90,17 @@ footer{
   padding: 10px;
   margin: 10px;
 }
+
+#footerteksti{
+  font-family: Montserrat;
+  font-size: 20px;
+  text-align: left;
+  color:  #fff9f2;
+  text-decoration: none;
+  padding: 10px;
+  margin: 10px;
+}
+
 
 #sähköposti{
   color: #fff9f2;
