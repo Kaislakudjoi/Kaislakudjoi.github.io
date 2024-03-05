@@ -108,7 +108,7 @@ footer{
   /*etusivun alempi kuva*/
   .kuva2{
     
-      padding-top: 10px;
-      width: 100%;
-      height: auto;
+    padding-top: 10px;
+    background-image: url(tuolu-magazin-VBqVFzDtfBg-unsplash-2.jpg);
+    background-size: cover;
   }
