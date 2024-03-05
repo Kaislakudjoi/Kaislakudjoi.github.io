@@ -87,6 +87,11 @@ footer{
   margin: 10px;
 }
 
+#sähköposti{
+  color: #fff9f2;
+
+}
+
 .container{
   display: flex;
   padding-left: 10px;
