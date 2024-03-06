@@ -8,6 +8,14 @@ h1 {
   text-align: center;
   color: #5c6244;
 }
+
+  /*h1 teksti etusivulla*/
+.teksti{
+  flex: 1;
+  text-align: center;
+  margin: auto;
+  }   
+
   p{
     font-family: Montserrat;
     font-size: 20px;
@@ -18,11 +26,13 @@ h1 {
     margin: 0;
   }
 
+  /*ladattu fontti*/
   @font-face {
     font-family: Montserrat;
     src: url(Montserrat-VariableFont_wght.ttf);
   }
 
+  /*hinnat teksti*/
 #hinnat{
   text-align: center;
 }
@@ -34,6 +44,7 @@ h2 {
     color: #5c6244;
 }
 
+/*headerin eli ylätunniste*/
 header{
   font-family: Montserrat;
   font-size: 30px;
@@ -41,6 +52,7 @@ header{
   color: #5c6244;
 }
 
+/*navigaatio*/
 nav a {
   background-color: #fff9f2;
   color: #5c6244;
@@ -52,15 +64,6 @@ nav a {
   font-size: 20px;
 }
 
-#logo {
-  background-color: #fff9f2;
-  color: #5c6244;
-  padding: 25px 25px;
-  text-align: left;
-  text-decoration: none;
-  font-size: 20px;
-  margin-right: 400px;
-}
 nav a:hover{
   background-color: #5c6244;
   color: #fff9f2;
@@ -70,7 +73,23 @@ nav a:hover{
   color: #fff9f2;
 }
 
-/*alatunniste, joka sivulla*/
+/*headerin "Logo"*/
+#logo {
+  background-color: #fff9f2;
+  color: #5c6244;
+  padding: 25px 25px;
+  text-align: left;
+  text-decoration: none;
+  font-size: 20px;
+  margin-right: 400px;
+}
+
+/*etusivun asettelu*/
+.container{
+  display: flex;
+}
+
+/*footer eli alatunniste, joka sivulla*/
 footer{
     flex-direction: row;
     text-align: center;
@@ -103,26 +122,18 @@ footer{
   margin: 10px;
 }
 
-
+/*footer sähköposti*/
 #sähköposti{
   color: #fff9f2;
-
 }
 
+/*yhteystietojen sähköposti*/
 #sähköposti2{
   color: #5c6244;
 }
-.container{
-  display: flex;
-  /*padding-left: 10px;*/
-}
 
-.teksti{
-  flex: 1;
-  text-align: center;
-  margin: auto;
-  }   
 
+  /*palvelu sivun tekstit*/
   #palvelutekstit{
     font-family: Montserrat;
     font-size: 20px;
@@ -133,7 +144,7 @@ footer{
     margin: 0;
   }
 
-  /*etusivun kuva*/
+  /*etusivun ylempi kuva*/
   .kuva{
   flex: 1;
   padding-top: 70px;
@@ -150,6 +161,7 @@ footer{
     display: inline-block;
   }
 
+  /*kuvagalleria*/
   div.gallery {
     margin-bottom: 20px;
     border: 1px solid #ccc;
