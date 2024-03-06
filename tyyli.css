@@ -52,6 +52,13 @@ h2 {
   color: #5c6244;
 }
 
+#palveluotsikot2{
+  font-family: Montserrat;
+  font-size:35px;
+  text-align: center;
+  color: #5c6244;
+}
+
 /*headerin eli ylätunniste*/
 header{
   font-family: Montserrat;
@@ -146,6 +153,15 @@ footer{
 
   /*palvelu sivun tekstit*/
   #palvelutekstit{
+    font-family: Montserrat;
+    font-size: 20px;
+    text-align: left;
+    color:  #5c6244;
+    text-decoration: none;
+    padding: 30px;
+    margin: 0;
+  }
+  #palvelutekstit2{
     font-family: Montserrat;
     font-size: 20px;
     text-align: left;
