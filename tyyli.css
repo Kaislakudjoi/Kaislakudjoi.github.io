@@ -151,7 +151,7 @@ footer{
   }
 
   div.gallery {
-    margin: auto;
+    margin-bottom: 20px;
     border: 1px solid #ccc;
     float: left;
     float: center;
