@@ -201,7 +201,6 @@ footer{
   flex: 1;
   padding-top: 70px;
   margin-right: 0%;
-  max-width: 100%;
 
   }
   /*etusivun alempi kuva*/
@@ -212,7 +211,6 @@ footer{
   
   .kuva2 {
     display: inline-block;
-    max-width: 100%;
   }
 
   /*kuvagallerian asettelu*/
@@ -249,6 +247,19 @@ footer{
 
   /*mobiilikoko*/
   @media (max-width: 600px) {
+
+
+  /*etusivun ylempi kuva*/
+  .kuva{
+  width: 100%;
+  
+    }
+
+  /*etusivun alempi kuva*/
+  .kuva2 {
+  width: 100%
+    }
+  
   
     /*etusivun asettelu*/
   .container{
