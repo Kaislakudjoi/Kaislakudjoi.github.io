@@ -99,10 +99,7 @@ nav a:hover{
   margin-right: 400px;
 }
 
-/*etusivun asettelu*/
-.container{
-  display: flex;
-}
+
 
 /*footer eli alatunniste, joka sivulla*/
 footer{
@@ -242,10 +239,21 @@ footer{
   /*suuri näyttö*/
   @media screen and (min-width: 1200px){
     
+  /*etusivun asettelu*/
+  .container{
+  display: flex;
+  flex-direction: row;
+}
     
   }
 
   /*mobiilikoko*/
   @media (max-width: 600px) {
+  
+    /*etusivun asettelu*/
+  .container{
+  display: flex;
+  flex-direction: column;
+}
     
   }
