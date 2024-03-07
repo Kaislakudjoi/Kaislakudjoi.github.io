@@ -250,15 +250,20 @@ footer{
 
 
   /*etusivun ylempi kuva*/
-  .kuva{
+  #etusivu_marsu{
   width: 100%;
   
     }
 
   /*etusivun alempi kuva*/
-  .kuva2 {
+  #etusivu_marsu2 {
   width: 100%
     }
+
+    /*palvelun kuva*/
+    #palvelumarsu {
+      width: 100%
+        }
   
   
     /*etusivun asettelu*/
