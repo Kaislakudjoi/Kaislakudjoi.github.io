@@ -245,6 +245,7 @@ footer{
     
   }
 
+
   /*mobiilikoko*/
   @media (max-width: 600px) {
 
@@ -276,5 +277,9 @@ footer{
 /*footer eli alatunniste, joka sivulla*/
 footer{
   flex-direction: column;
-
+  text-align: center;
   }
+  #footerteksti{
+    color: #fff9f2;
+  }
+}
