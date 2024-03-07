@@ -181,6 +181,7 @@ footer{
   #hinnastotaulukko td,#hinnastotaulukko th{
     border: 1px solid #5c6244;
     padding: 6px;
+    align-items: center;
   }
 
   #hinnastotaulukko th{
