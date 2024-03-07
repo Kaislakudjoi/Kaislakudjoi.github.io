@@ -170,6 +170,35 @@ footer{
     padding: 30px;
     margin: 0;
   }
+/*hinnastot taulukkona*/
+  #hinnastotaulukko{
+  font-family: Montserrat;
+  border-collapse: collapse;
+  margin: auto;
+  width: 80%;
+  }
+
+  #hinnastotaulukko td,#hinnastotaulukko th{
+    border: 1px #5c6244;
+    padding: 6px;
+  }
+
+  #hinnastotaulukko th{
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #fff9f2;
+    color: #5c6244;
+  }
+
+  #hinnastotaulukko th{
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #fff9f2;
+    color: #5c6244;
+  }
+
 
   /*etusivun ylempi kuva*/
   .kuva{
