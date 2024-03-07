@@ -199,6 +199,13 @@ footer{
     color: #5c6244;
   }
 
+  /*etusivun ylempi kuva*/
+  .kuva3{
+    flex: 1;
+    padding-top: 50px;
+    margin-right: 0%;
+  }
+
 
   /*etusivun ylempi kuva*/
   .kuva{
