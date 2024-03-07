@@ -188,7 +188,27 @@ footer{
     display: inline-block;
   }
 
-  /*kuvagalleria*/
+  /*kuvagallerian asettelu*/
+.grid-kuva1 { grid-area: g1; }
+.grid-kuva2 { grid-area: g2; }
+.grid-kuva3 { grid-area: g3; }
+.grid-kuva4 { grid-area: g4; }
+.grid-kuva5 { grid-area: g5; }
+.grid-kuva6 { grid-area: g6; }
+
+.grid-container {
+    display: grid;
+    gap: 20px;
+    padding: 20px;
+}
+
+#galleria {
+  grid-template-areas:
+      'g1 g1 g3'
+      'g4 g5 g6';
+}
+
+  /*kuvagalleria
   div.gallery {
     margin-bottom: 30px;
     border: 1px solid #ccc;
@@ -209,4 +229,4 @@ footer{
   div.desc {
     padding: 15px;
     text-align: center;
-  }
+  }*/
