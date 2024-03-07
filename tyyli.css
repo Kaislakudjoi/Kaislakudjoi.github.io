@@ -2,6 +2,12 @@ body{
   background-color: #fff9f2;
 }
 
+ /*ladattu fontti*/
+ @font-face {
+  font-family: Montserrat;
+  src: url(Montserrat-VariableFont_wght.ttf);
+}
+
 h1 {
   font-family: Montserrat;
   font-size: 50px;
@@ -24,12 +30,6 @@ h1 {
     text-decoration: none;
     padding: 30px;
     margin: 0;
-  }
-
-  /*ladattu fontti*/
-  @font-face {
-    font-family: Montserrat;
-    src: url(Montserrat-VariableFont_wght.ttf);
   }
 
   /*hinnat teksti*/
@@ -151,8 +151,8 @@ footer{
   color: #5c6244;
 }
 
-  /*palvelu sivun tekstit*/
-  #palvelutekstit{
+/*palvelu sivun tekstit*/
+#palvelutekstit{
     font-family: Montserrat;
     font-size: 20px;
     text-align: left;
@@ -161,7 +161,7 @@ footer{
     padding: 30px;
     margin: 0;
   }
-  #palvelutekstit2{
+#palvelutekstit2{
     font-family: Montserrat;
     font-size: 20px;
     text-align: left;
@@ -204,6 +204,7 @@ footer{
   flex: 1;
   padding-top: 70px;
   margin-right: 0%;
+  max-width: 100%;
 
   }
   /*etusivun alempi kuva*/
@@ -214,6 +215,7 @@ footer{
   
   .kuva2 {
     display: inline-block;
+    max-width: 100%;
   }
 
   /*kuvagallerian asettelu*/
@@ -237,25 +239,13 @@ footer{
       'g4 g5 g6';
 }
 
-  /*kuvagalleria
-  div.gallery {
-    margin-bottom: 30px;
-    border: 1px solid #ccc;
-    float: left;
-    float: center;
-    width: 180px;
+  /*suuri näyttö*/
+  @media screen and (min-width: 1200px){
+    
+    
   }
-  
-  div.gallery:hover {
-    border: 1px solid #777;
+
+  /*mobiilikoko*/
+  @media (max-width: 600px) {
+    
   }
-  
-  div.gallery img {
-    width: 100%;
-    height: auto;
-  }
-  
-  div.desc {
-    padding: 15px;
-    text-align: center;
-  }*/
