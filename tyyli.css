@@ -198,8 +198,8 @@ footer{
 
 .grid-container {
     display: grid;
-    gap: 20px;
-    padding: 20px;
+    gap: 10px;
+    padding: 10px;
 }
 
 #galleria {
