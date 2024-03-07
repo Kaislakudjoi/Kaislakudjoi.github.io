@@ -175,13 +175,12 @@ footer{
   font-family: Montserrat;
   border-collapse: collapse;
   margin: auto;
-  width: 50%;
+  width: 100%;
   }
 
   #hinnastotaulukko td,#hinnastotaulukko th{
     border: 1px solid #5c6244;
-    padding: 6px;
-    align-items: center;
+    padding: 8px;
   }
 
   #hinnastotaulukko th{
