@@ -273,6 +273,11 @@ footer{
   flex-direction: column;
 
 }
+
+/*hinnastot taulukkona*/
+#hinnastotaulukko{
+  width: 95%;
+  }
   
 /*footer eli alatunniste, joka sivulla*/
 footer{
