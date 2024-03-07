@@ -226,7 +226,7 @@ footer{
 
 .grid-container {
     display: grid;
-    column-gap: 5px;
+    column-gap: 1px;
     /*padding: 20px;*/
 }
 
