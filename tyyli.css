@@ -286,5 +286,16 @@ footer{
   }
   #footerteksti{
     color: #fff9f2;
+    text-decoration: none;
+  }
+  /*gallerian asettelu*/
+  #galleria {
+    grid-template-areas:
+        'g1' 
+        'g2'
+        'g3'
+        'g4'
+        'g5'
+        'g6';
   }
 }
