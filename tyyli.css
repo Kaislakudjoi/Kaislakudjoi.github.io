@@ -284,11 +284,14 @@ footer{
   flex-direction: column;
   background-color:#fff9f2;
   text-decoration: none;
+  color:#5c6244;
+
   }
   #footerteksti{
     color:#5c6244;
     text-align: center;
     font-size: 10px;
+    text-decoration: none;
   }
   /*gallerian asettelu*/
   #galleria {
