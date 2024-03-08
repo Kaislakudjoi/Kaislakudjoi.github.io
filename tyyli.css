@@ -253,6 +253,7 @@ footer{
   display:flex;
   flex-direction: column;
   font-size: 15px;
+  margin: 0%;
   }
 
   /*etusivun ylempi kuva*/
