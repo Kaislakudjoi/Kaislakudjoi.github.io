@@ -249,6 +249,11 @@ footer{
   /*mobiilikoko*/
   @media (max-width: 600px) {
 
+  nav a{
+  display:flex;
+  flex-direction: column;
+  font-size: 15px;
+  }
 
   /*etusivun ylempi kuva*/
   #etusivu_marsu{
@@ -293,6 +298,11 @@ footer{
     font-size: 10px;
     text-decoration: none;
   }
+
+  /*footer sähköposti*/
+    #sähköposti{
+    color:#5c6244;
+}
   /*gallerian asettelu*/
   #galleria {
     grid-template-areas:
