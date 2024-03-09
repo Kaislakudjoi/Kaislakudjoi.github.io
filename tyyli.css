@@ -369,6 +369,7 @@ footer{
   .grid-container {
     display: grid;
     margin: 10px;
+    align-items: center;
 }
 
   #galleria {
