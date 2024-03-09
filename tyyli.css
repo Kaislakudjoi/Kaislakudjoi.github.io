@@ -196,13 +196,7 @@ footer{
     color: #5c6244;
   }
 
-  /*etusivun ylempi kuva*/
-  .kuva{
-  flex: 1;
-  padding-top: 70px;
-  margin-right: 0%;
 
-  }
   /*etusivun alempi kuva*/
   .kuva2-container {
     text-align: center;
@@ -242,6 +236,14 @@ footer{
   display: flex;
   flex-direction: row;
 }
+
+  /*etusivun ylempi kuva*/
+  .kuva{
+    flex: 1;
+    padding-top: 70px;
+    margin-right: 0%;
+  
+    }
     
   }
 
@@ -274,6 +276,8 @@ footer{
   /*etusivun ylempi kuva*/
   #etusivu_marsu{
   width: 100%;
+  flex: 1;
+  padding-top: 30px;
   
     }
 
