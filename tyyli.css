@@ -368,8 +368,7 @@ footer{
    /*gallerian asettelu*/
   .grid-container {
     display: grid;
-    margin: 0%;
-    justify-content: center;
+    margin: 10px;
 }
 
   #galleria {
