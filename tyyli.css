@@ -368,7 +368,7 @@ footer{
    /*gallerian asettelu*/
   .grid-container {
     display: grid;
-    padding: 5px;
+
     margin: 0%;
 }
 
@@ -380,5 +380,11 @@ footer{
         'g4'
         'g5'
         'g6';
+  }
+
+   /*gallerian kuvat*/
+   #galleriakuva{
+    width: 100%;
+    height: auto;
   }
 }
