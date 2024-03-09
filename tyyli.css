@@ -368,8 +368,8 @@ footer{
    /*gallerian asettelu*/
   .grid-container {
     display: grid;
-
     margin: 0%;
+    justify-content: center;
 }
 
   #galleria {
@@ -384,7 +384,7 @@ footer{
 
    /*gallerian kuvat*/
    #galleriakuva{
-    width: 100%;
+    width: 80%;
     height: auto;
   }
 }
