@@ -382,11 +382,12 @@ footer{
         'g4'
         'g5'
         'g6';
-  }
+        width: 100%; /* Lisätty 100% leveys gallerialle */
+}
 
    /*gallerian kuvat*/
    #galleriakuva{
-    width: 100%;
+    max-width: 100%;
     height: auto;
   }
 }
