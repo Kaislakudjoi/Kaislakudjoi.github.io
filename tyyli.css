@@ -99,8 +99,6 @@ nav a:hover{
   margin-right: 400px;
 }
 
-
-
 /*footer eli alatunniste, joka sivulla*/
 footer{
     flex-direction: row;
@@ -222,12 +220,6 @@ footer{
     margin: 10px;
 }
 
-#galleria {
-  grid-template-areas:
-      'g1 g2 g3'
-      'g4 g5 g6';
-}
-
   /*suuri näyttö*/
   @media screen and (min-width: 1200px){
     
@@ -244,7 +236,36 @@ footer{
     margin-right: 0%;
   
     }
+
+    #galleria {
+      grid-template-areas:
+          'g1 g2 g3'
+          'g4 g5 g6';
+    }
     
+    /*etusivun ylempi kuva*/
+  #etusivu_marsu{
+    width: 100%;
+    height: auto;
+    flex: 1;
+  }
+  /*etusivun alempi kuva*/
+  #etusivu_marsu2 {
+    width: 100%;
+    height: auto;
+      }
+
+   /*palvelun kuva*/
+   #palvelumarsu {
+    width: 100%;
+    height:auto;
+      }
+    
+    /*yhtesytietojen kuva*/
+  #yhteysmarsu{
+    width: 100%;
+    height: auto;
+  }
   }
 
 
@@ -276,23 +297,27 @@ footer{
   /*etusivun ylempi kuva*/
   #etusivu_marsu{
   width: 100%;
+  height: auto;
   flex: 1;
   
     }
 
   /*etusivun alempi kuva*/
   #etusivu_marsu2 {
-  width: 100%
+  width: 100%;
+  height: auto;
     }
 
     /*palvelun kuva*/
     #palvelumarsu {
-      width: 100%
+      width: 100%;
+      height:auto;
         }
   
   /*yhtesytietojen kuva*/
   #yhteysmarsu{
     width: 100%;
+    height: auto;
   }
   
   
