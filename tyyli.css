@@ -213,12 +213,6 @@ footer{
 .grid-kuva5 { grid-area: g5; }
 .grid-kuva6 { grid-area: g6; }
 
-.grid-container {
-    display: grid;
-    column-gap: 10px;
-    padding: 20px;
-    margin: 10px;
-}
 
   /*suuri näyttö*/
   @media screen and (min-width: 1200px){
@@ -236,6 +230,14 @@ footer{
     margin-right: 0%;
   
     }
+
+     /*gallerian asettelu*/
+    .grid-container {
+      display: grid;
+      column-gap: 10px;
+      padding: 20px;
+      margin: 10px;
+  }
 
     #galleria {
       grid-template-areas:
@@ -363,7 +365,13 @@ footer{
     font-size: 10px;
   }
 
-  /*gallerian asettelu*/
+   /*gallerian asettelu*/
+  .grid-container {
+    display: grid;
+    padding: 20px;
+    margin: 0%;
+}
+
   #galleria {
     grid-template-areas:
         'g1' 
