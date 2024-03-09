@@ -287,6 +287,11 @@ footer{
       width: 100%
         }
   
+  /*yhtesytietojen kuva*/
+  #yhteysmarsu{
+    width: 100%;
+  }
+  
   
     /*etusivun asettelu*/
   .container{
