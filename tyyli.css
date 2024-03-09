@@ -366,11 +366,11 @@ footer{
   }
 
    /*gallerian asettelu*/
-  .grid-container {
-    display: grid;
-    margin: 10px;
+   .grid-container {
+    grid-template-columns: 1fr; /* Yksi sarake mobiilissa */
+    justify-content: center;
     align-items: center;
-}
+  }
 
   #galleria {
     grid-template-areas:
@@ -384,7 +384,7 @@ footer{
 
    /*gallerian kuvat*/
    #galleriakuva{
-    width: 80%;
+    width: 100%;
     height: auto;
   }
 }
